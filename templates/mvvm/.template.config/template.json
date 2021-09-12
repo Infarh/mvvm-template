@@ -17,7 +17,7 @@
       "modifiers": [
         {
           "exclude": [ 
-             "register.bat", "unregister.bat", ".gitignore" ]
+             "register.bat", "unregister.bat", ".gitignore", ".git/**", ".vs/**", "MVVM.csproj" ]
         }
       ]
     }
