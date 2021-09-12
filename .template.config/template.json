@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "shmachilin@gmail.com",
+  "classifications": [ "Infrastructure/MVVM" ], 
+  "name": "WPF MVVM Infrastructure",
+  "identity": "wpf.mvvm",
+  "groupIdentity":"WPF",
+  "shortName": "mvvm",
+  "tags": {
+    "language": "C#",
+    "type":"items"
+  },
+  "sourceName": "MVVM",
+  "preferNameDirectory": true,
+   "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ 
+             "register.bat", "unregister.bat", ".gitignore" ]
+        }
+      ]
+    }
+  ]
+}
